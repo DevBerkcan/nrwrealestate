@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
-import { merriweather, gothic } from "@/fonts";
+import { gothic } from "@/fonts";
 
 interface HeroSection2Props {
   title: string;
@@ -13,7 +13,6 @@ interface HeroSection2Props {
 const HeroSection2: React.FC<HeroSection2Props> = ({
   title,
   subtitle,
-  backgroundImage,
   className,
 }) => {
   return (
