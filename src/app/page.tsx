@@ -5,27 +5,30 @@ import InfoSection from "@/components/InfoSection";
 
 export default function Main() {
   return (
-    <div className="relative w-full mx-auto bg-white ">
+    <div className="relative w-full mx-auto bg-white">
       <HeroSection
         title="Willkommen bei NRW Real Estate GmbH"
-        subtitle="Ihr Immobilieninvestor aus Wuppertal"
+        subtitle={
+          <span style={{ letterSpacing: '0.07em' }}>
+            Ihr Immobilieninvestor aus Wuppertal
+          </span>
+        }
         overlayImage="/public/rectangle-13.svg"
         backgroundImage="/public/bg-1.png"
       />
-      <div className=" px-10 md:px-20">
+      <div className="px-10 md:px-20">
         <AboutSection
           title="Über uns"
-          // className="md:flex md:flex-row"
           content={[
             `Wir sind eine familiengeführte GmbH mit Sitz in Wuppertal.
-Seit 2018 konzentrieren wir uns auf den Ankauf und die Entwicklung
-von Wohnimmobilien in Wuppertal, dem Bergischen Land und darüber hinaus.`,
+            Seit 2018 konzentrieren wir uns auf den Ankauf und die Entwicklung
+            von Wohnimmobilien in Wuppertal, dem Bergischen Land und darüber hinaus.`,
             `Der Fokus liegt auf langfristigen Anlagekäufen, dieden Wert der Immobilienichtnur bewahren, sondern auch neue Potenziale erschließen.
-Mitunserer langjährigen Erfahrung auf dem WuppertalerImmobilienmarkt
-sindwir stets drum bemüht, Bestandsobjekte zu erhalten und neueWerte
-zuschaffen.`,
+            Mitunserer langjährigen Erfahrung auf dem WuppertalerImmobilienmarkt
+            sindwir stets drum bemüht, Bestandsobjekte zu erhalten und neueWerte
+            zuschaffen.`,
             `Besonderer Wert liegt auf Diskretion und Professionalität in der
-Abwicklung sowie auf einer persönlichen und vertrauensvollen Zusammenarbeit.`,
+            Abwicklung sowie auf einer persönlichen und vertrauensvollen Zusammenarbeit.`,
           ]}
           imageSrc="/public/Frame 4.png"
         />

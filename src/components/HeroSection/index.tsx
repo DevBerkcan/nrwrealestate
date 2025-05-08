@@ -3,7 +3,7 @@ import Image from "next/image";
 
 interface HeroSectionProps {
   title: string;
-  subtitle: string;
+  subtitle: React.ReactNode;
   backgroundImage: string;
   overlayImage?: string;
   titleFont?: string;
