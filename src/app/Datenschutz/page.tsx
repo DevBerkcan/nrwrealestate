@@ -24,7 +24,8 @@ const Datenschutzerklaerung = () => {
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-2">SSL- bzw. TLS-Verschlüsselung</h2>
         <p>
-          Unsere Website nutzt SSL- bzw. TLS-Verschlüsselung, um Ihre Daten vor dem Zugriff Dritter zu schützen. Sie erkennen dies am Schloss-Symbol in Ihrer Browserzeile sowie daran, dass unsere URL mit "https://" beginnt.
+          Unsere Website nutzt SSL- bzw. TLS-Verschlüsselung, um Ihre Daten vor dem Zugriff Dritter zu schützen. Sie erkennen dies am Schloss-Symbol in Ihrer Browserzeile sowie daran, dass unsere URL mit &quot;https://&quot; beginnt.
+
         </p>
       </section>
 
