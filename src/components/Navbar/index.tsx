@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <header className="relative z-20 flex items-center justify-between px-6 md:px-10 py-4 bg-white shadow-md">
       {/* Logo */}
-      <Link href="/" className="z-20">a
+      <Link href="/" className="z-20">
         <Logo />
       </Link>
 
