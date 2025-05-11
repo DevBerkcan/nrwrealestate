@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
 import { Textarea } from "../ui/textarea";
-import { sendContactEmail } from "@/app/actions/sendContactEmail"; // Updated import
+import { sendContactEmail } from "@/app/actions/sendContactEmail";
 
 interface ContactUSProps {
   imageSrc?: string;

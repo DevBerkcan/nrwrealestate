@@ -51,35 +51,30 @@ const InfoSection: React.FC<InfoSectionProps> = ({
           </h2>
         )}
         <p className="  mb-10">
-          Wir suchen kontinuierlich nach attraktiven Immobilien in Wuppertal und
-          Umgebung.
+        Wir sind kontinuierlich auf der Suche nach attraktiven Immobilien in Wuppertal und Umgebung.
         </p>
         <p className=" mb-10">
           <>
-            Dank unserer langjährigen Expertise können wir Immobilien in
-            unterschiedlichsten Zuständen und aus allen Baujahrklassen präzise
-            bewerten und verborgene Potenziale
-            <br />
-            erkennen. Unser Ankaufsprofil umfasst sowohl sanierte
-            Mehrfamilienhäuser als auch entwicklungsbedürftige Bestandsobjekte
-            mit hohem Aufwertungspotential.
+          Dank unserer langjährigen Expertise bewerten wir Immobilien verschiedenster Baujahre und Zustände präzise
+    und erkennen verborgene Potenziale.
+    <br />
+    Unser Ankaufsprofil umfasst sowohl sanierte Mehrfamilienhäuser als auch entwicklungsbedürftige Bestandsobjekte
+    mit hohem Aufwertungspotenzial.
           </>
         </p>
         <p className=" font-semibold mb-10">Unser Fokus:</p>
         <p className=" mb-10">
-          Immobilien im Wohnbereich, einschließlich Mehrfamilienhäuser, Wohn-
-          und Geschäftshäuser, Wohnanlagen sowie Grundstücke.
+        Wohnimmobilien wie Mehrfamilienhäuser, Wohn- und Geschäftshäuser, Wohnanlagen sowie Grundstücke.
         </p>
         <p className=" mb-10">
-          Bestandsobjekte mit Entwicklungspotenzial, z. B. durch Leerstand oder
-          Sanierungsbedarf.
+        Bestandsobjekte mit Entwicklungspotenzial – etwa durch Leerstand oder Sanierungsbedarf.
         </p>
         <p className=" mb-10">
-          Wir versprechen diskrete, transparente und zügige Abwicklungsprozesse.
+        Wir garantieren eine diskrete, transparente und zügige Abwicklung.
         </p>
         <p className=" mb-10">
-          Besuchen Sie gerne unser Ankaufsprofil, um weitere Details zu
-          erfahren. Wir freuen uns auf die mögliche Zusammenarbeit.
+        Besuchen Sie gerne unser Ankaufsprofil, um mehr über unsere Kriterien zu erfahren.  
+        Wir freuen uns auf eine mögliche Zusammenarbeit.
         </p>
 
         {addButton && (

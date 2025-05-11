@@ -5,6 +5,8 @@ const quickLinks = [
   { title: "Ankaufsprofil", href: "/Ankaufsprofil" },
   { title: "Kontakt", href: "/Kontakt" },
   { title: "Impressum", href: "/Impressum" },
+  { title: "Datenschutzerklärung", href: "/Datenschutz" }
+
 ];
 
 const QuickLinks = () => (
@@ -17,7 +19,7 @@ const QuickLinks = () => (
         <li key={title}>
           <a
             href={href}
-            className="font-['Gothic_A1',Helvetica] text-[18px] gap-2 flex flex-col items-center text-[#1f4b43] tracking-[0] leading-[28.5px]"
+            className="font-['Gothic_A1',HelvetImpressumca] text-[18px] gap-2 flex flex-col items-center text-[#1f4b43] tracking-[0] leading-[28.5px]"
           >
             {title}
           </a>
@@ -58,12 +60,9 @@ const Footer = () => {
     <footer className="bg-white">
       <div className="w-full border-t-2 border-[#FF0000] pt-16 px-4">
         <div className="max-w-7xl mx-auto flex flex-col items-center">
-          {/* Logo zentriert */}
           <div className="mb-12">
             <Logo />
           </div>
-
-          {/* Drei Spalten nebeneinander und zentriert */}
           <div className="w-full flex justify-center mb-16">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left">
               <QuickLinks />

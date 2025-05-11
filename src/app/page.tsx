@@ -20,16 +20,13 @@ export default function Main() {
         <AboutSection
           title="Über uns"
           content={[
-            `Wir sind eine familiengeführte GmbH mit Sitz in Wuppertal.
-            Seit 2018 konzentrieren wir uns auf den Ankauf und die Entwicklung
-            von Wohnimmobilien in Wuppertal, dem Bergischen Land und darüber hinaus.`,
-            `Der Fokus liegt auf langfristigen Anlagekäufen, dieden Wert der Immobilienichtnur bewahren, sondern auch neue Potenziale erschließen.
-            Mitunserer langjährigen Erfahrung auf dem WuppertalerImmobilienmarkt
-            sindwir stets drum bemüht, Bestandsobjekte zu erhalten und neueWerte
-            zuschaffen.`,
-            `Besonderer Wert liegt auf Diskretion und Professionalität in der
-            Abwicklung sowie auf einer persönlichen und vertrauensvollen Zusammenarbeit.`,
+            `Wir sind eine familiengeführte GmbH mit Sitz in Wuppertal. Seit 2018 konzentrieren wir uns auf den Ankauf und die Entwicklung von Wohnimmobilien in Wuppertal, dem Bergischen Land und darüber hinaus.`,
+          
+            `Unser Fokus liegt auf langfristigen Anlagekäufen, die den Wert der Immobilien nicht nur erhalten, sondern auch neue Potenziale erschließen. Mit unserer langjährigen Erfahrung auf dem Wuppertaler Immobilienmarkt sind wir stets darum bemüht, Bestandsobjekte zu bewahren und neue Werte zu schaffen.`,
+          
+            `Besonderen Wert legen wir auf Diskretion und Professionalität in der Abwicklung sowie auf eine persönliche und vertrauensvolle Zusammenarbeit.`,
           ]}
+          
           imageSrc="/public/Frame 4.png"
         />
 
