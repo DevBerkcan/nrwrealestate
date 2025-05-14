@@ -30,7 +30,7 @@ const Ankaufsprofilcomp1 = () => {
           src="/public/Rectangle 18.png" // Removed "/public/"
           width={617}
           height={357}
-          objectFit="cover" // Keeps the aspect ratio without extra space
+          objectFit="intrinsic" // Keeps the aspect ratio without extra space
           priority
         />
       </div>

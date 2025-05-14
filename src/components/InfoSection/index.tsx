@@ -38,23 +38,23 @@ const InfoSection: React.FC<InfoSectionProps> = ({
 
       {/* Text Section */}
       <div
-        className={`w-full text-normal flex-1 flex flex-col pt-4 font-gothic `}
+        className={`w-full flex-1 flex flex-col pt-4 `}
       >
         {title && (
-          <h2 className="font-merriweather font-[400] text-center md:text-left text-[#1a1a1a] text-[40px] leading-[32px] mb-2">
+          <h2 className="font-merriweather font-[400] text-center md:text-left text-[#1a1a1a] text-[40px] leading-[32px] mb-5">
             {title}
           </h2>
         )}
         {subtitle && (
-          <h2 className="font-gothic font-bold text-center md:text-left text-[#1a1a1a] text-normal leading-[52px] mb-10">
+          <h2 className="font-gothic font-bold text-center md:text-left text-[#1a1a1a] leading-[52px] mb-10">
             {subtitle}
           </h2>
         )}
-        <p className="  mb-10">
+        <p className="font-gothic mb-10">
           Wir sind kontinuierlich auf der Suche nach attraktiven Immobilien in
           Wuppertal und Umgebung.
         </p>
-        <p className=" mb-10">
+        <p className="font-gothic mb-10">
           <>
             Dank unserer langjährigen Expertise können wir Immobilien
             inunterschiedlichsten <br />
@@ -69,21 +69,21 @@ const InfoSection: React.FC<InfoSectionProps> = ({
             Aufwertungspotenzial.
           </>
         </p>
-        <p className=" font-semibold mb-10">Unser Fokus:</p>
-        <p className=" mb-10">
+        <p className="font-gothic font-bold mb-10"><br />Unser Fokus:</p>
+        <p className="font-gothic mb-10">
           Immobilien im Wohnbereich, einschließlich Mehrfamilienhäuser,
           <br />
           Wohn- und Geschäftshäuser, Wohnanlagen sowie Grundstücke.
         </p>
-        <p className=" mb-10">
+        <p className="font-gothic mb-10">
           Bestandsobjekte mit Entwicklungspotenzial - etwa durch Leerstand oder
           <br />
           Sanierungsbedarf.
         </p>
-        <p className=" mb-10">
+        <p className="font-gothic mb-10">
           Wir garantieren eine diskrete, transparente und zügige Abwicklung.
         </p>
-        <p className=" mb-10">
+        <p className="font-gothic mb-10">
           Besuchen Sie gerne unser Ankaufsprofil, um mehr über unsere Kriterien
           zu erfahren.
           <br /> Wir freuen uns auf eine mögliche Zusammenarbeit.

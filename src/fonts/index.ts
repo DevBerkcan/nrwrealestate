@@ -10,6 +10,6 @@ export const merriweather = Merriweather({
 export const gothic = Gothic_A1({
   subsets: ["latin"],
   variable: "--font-gothic",
-  weight: ["600"],
+  weight: ["400", "700"],
   display: "swap",
 });
