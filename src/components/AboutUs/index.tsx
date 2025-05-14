@@ -20,7 +20,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({
   return (
     <section
       className={cn(
-        "flex flex-col [@media(min-width:1350px)]:flex-row gap-28 text-[#1a1a1a]",
+        "flex flex-col [@media(min-width:1350px)]:flex-row gap-98 text-[#1a1a1a]",
         className
       )}
     >
