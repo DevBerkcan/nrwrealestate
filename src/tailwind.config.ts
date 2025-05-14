@@ -2,7 +2,7 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    "./src/**/*.{ts,tsx}", // durchsucht dein gesamtes src-Verzeichnis
+    "./src/**/*.{ts,tsx}",
   ],
   theme: {
     extend: {
@@ -14,6 +14,7 @@ const config: Config = {
         "8p": "0.08em", // für 8% tracking wie in Figma
       },
       colors: {
+            'custom-green': '#1B944A',
         // falls du CI-Farben definieren willst:
         // primary: "#123456",
         // secondary: "#abcdef",
