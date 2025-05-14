@@ -65,7 +65,7 @@ const Datenschutzerklaerung = () => {
           </h2>
           <p className="text-gray-700">
             Unsere Website nutzt SSL- bzw. TLS-Verschlüsselung, um Ihre Daten vor dem Zugriff Dritter zu schützen. 
-            Sie erkennen dies am Schloss-Symbol in Ihrer Browserzeile sowie daran, dass unsere URL mit "https://" beginnt.
+            Sie erkennen dies am Schloss-Symbol in Ihrer Browserzeile sowie daran, dass unsere URL mit &quot;https://&quot; beginnt.
           </p>
         </section>
 
