@@ -4,7 +4,7 @@ import React from "react";
 
 const Ankaufsprofilcomp2 = () => {
   return (
-    <section className="px-18 md:px-28 mx-auto py-10 flex flex-col-reverse  xl:flex-row gap-14 lg:gap-10">
+    <section className="px-8 md:px-28 mx-auto py-10 flex flex-col-reverse  xl:flex-row gap-14 lg:gap-10">
       
       {/* Image Section - 40% Width */}
       <div className="relative m-auto md:m-0 md:w-[662px]">
@@ -68,7 +68,7 @@ const Ankaufsprofilcomp2 = () => {
               Objektunterlagen und freuen uns, Ihre Immobilie vertraulich zu
               prüfen zu dürfen.
             </p>
-            <p className="text-normal mb-24">
+            <p className="text-normal mb-8">
               Kontaktieren können Sie uns gerne per Mail oder direkt hier.
             </p>
           </div>
