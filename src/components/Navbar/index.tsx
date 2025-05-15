@@ -36,7 +36,7 @@ const Navbar = () => {
             <Link
               key={index}
               href={link.href}
-              className="font-gothic text-[#1F4B43] font-normal text-[18px] lg:text-[24px] tracking-wide hover:text-[#145e50] transition-colors"
+              className="font-gothic font-semibold text-[#1F4B43] text-[18px] lg:text-[24px] tracking-wide hover:text-[#145e50] transition-colors"
             >
               {link.title}
             </Link>
