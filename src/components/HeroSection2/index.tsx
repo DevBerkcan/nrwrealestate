@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
-import { gothic, merriweather } from "@/fonts";
+import { gothic } from "@/fonts";
 
 interface HeroSection2Props {
   title: string;
