@@ -53,8 +53,7 @@ const HeroSection2: React.FC<HeroSection2Props> = ({
       <div className="relative z-20 text-center px-4">
         <h1
           className={cn(
-            "text-white font-extrabold text-[4.8vw] lg:text-[4.16vw] [@media(min-width:1640px)]:text-[80px] whitespace-nowrap leading-[1.2]",
-            merriweather.className
+            "text-white font-merriweather leading-[1.1] text-[50px] sm:text-[70px] md:text-[100px] lg:text-[128px] whitespace-nowrap"
           )}
         >
           {title}
@@ -62,7 +61,7 @@ const HeroSection2: React.FC<HeroSection2Props> = ({
         {subtitle && (
           <p
             className={cn(
-              "text-white font-[600] mt-[36px] text-[4vw] md:text-[3vw] lg:text-[2.08vw] leading-[47.2px] tracking-[0.08em] whitespace-nowrap",
+              "text-white font-medium mt-4 text-[20px] sm:text-[20px] md:text-[30px] lg:text-[40px] leading-[47.2px] tracking-tight",
               gothic.className
             )}
           >
