@@ -9,7 +9,7 @@ export default function Main() {
       <HeroSection
         title="Willkommen bei NRW Real Estate GmbH"
         subtitle={
-          <span style={{ letterSpacing: "0.07em" }}>
+          <span style={{ letterSpacing: "0.07em", fontWeight: 600 }}>
             Ihr Immobilieninvestor aus Wuppertal
           </span>
         }
