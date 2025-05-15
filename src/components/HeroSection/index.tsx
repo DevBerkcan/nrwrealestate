@@ -49,7 +49,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
         >
           {title}
         </h1>
-        <p className="text-white tracking-wide text-[4vw] md:text-[3vw] lg:text-[2.08vw] leading-[47.2px] whitespace-nowrap font-gothic">
+        <p className="text-white tracking-wide text-[4vw] md:text-[3vw] lg:text-[2.08vw] leading-[47.2px] whitespace-nowrap font-gothic mt-4">
           {subtitle}
         </p>
       </div>
