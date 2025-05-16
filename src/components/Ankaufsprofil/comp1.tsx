@@ -12,11 +12,11 @@ const Ankaufsprofilcomp1 = () => {
           Wir suchen stetig nach Immobilien für unseren Bestand und freuen uns,
           wenn Sie uns bei der Suche unterstützen.
         </h2>
-        <p className="text-normal mb-8">
+        <p className="font-gothic mb-8">
           Unser Fokus liegt auf Mehrfamilienhäusern, Wohn- und Geschäftshäusern,
           Wohnanlagen sowie Gewerbeimmobilien und Grundstücke.
         </p>
-        <p className="text-normal mb-8">
+        <p className="font-gothic mb-8">
           Auch Immobilien in B- oder C-Lagen sowie Objekte mit Sanierungsbedarf
           stellen für uns kein Hindernis dar. Im Gegenteil, wir erkennen das
           Potenzial solcher Immobilien und sind stets an deren Entwicklung
