@@ -67,7 +67,7 @@ const Ankaufsprofilcomp2 = () => {
               Objektunterlagen und freuen uns, Ihre Immobilie vertraulich zu
               prüfen zu dürfen.
             </p>
-            <p className="text-normal mb-8">
+            <p className="text-normal mb-18">
               Kontaktieren können Sie uns gerne per Mail oder direkt hier.
             </p>
           </div>
