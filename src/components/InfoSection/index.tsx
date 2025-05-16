@@ -46,15 +46,15 @@ const InfoSection: React.FC<InfoSectionProps> = ({
           </h2>
         )}
         {subtitle && (
-          <h2 className="font-gothic font-bold text-center md:text-left text-[#1a1a1a] leading-[52px] mb-10">
+          <h2 className="font-gothic font-bold text-center md:text-left text-[#1a1a1a] leading-[52px] mb-10 text-[18px]">
             {subtitle}
           </h2>
         )}
-        <p className="font-gothic mb-10">
+        <p className="font-gothic mb-10 text-[18px]">
           Wir sind kontinuierlich auf der Suche nach attraktiven Immobilien in
           Wuppertal und Umgebung.
         </p>
-        <p className="font-gothic mb-10">
+        <p className="font-gothic mb-10 text-[18px]">
           <>
             Dank unserer langjährigen Expertise können wir Immobilien
             inunterschiedlichsten <br />
@@ -69,21 +69,21 @@ const InfoSection: React.FC<InfoSectionProps> = ({
             Aufwertungspotenzial.
           </>
         </p>
-        <p className="font-gothic font-bold mb-10"><br />Unser Fokus:</p>
-        <p className="font-gothic mb-10">
+        <p className="font-gothic font-bold mb-10 text-[18px]"><br />Unser Fokus:</p>
+        <p className="font-gothic mb-10 text-[18px]">
           Immobilien im Wohnbereich, einschließlich Mehrfamilienhäuser,
           <br />
           Wohn- und Geschäftshäuser, Wohnanlagen sowie Grundstücke.
         </p>
-        <p className="font-gothic mb-10">
+        <p className="font-gothic mb-10 text-[18px]">
           Bestandsobjekte mit Entwicklungspotenzial - etwa durch Leerstand oder
           <br />
           Sanierungsbedarf.
         </p>
-        <p className="font-gothic mb-10">
+        <p className="font-gothic mb-10 text-[18px]">
           Wir garantieren eine diskrete, transparente und zügige Abwicklung.
         </p>
-        <p className="font-gothic mb-10">
+        <p className="font-gothic mb-10 text-[18px]">
           Besuchen Sie gerne unser Ankaufsprofil, um mehr über unsere Kriterien
           zu erfahren.
           <br /> Wir freuen uns auf eine mögliche Zusammenarbeit.
