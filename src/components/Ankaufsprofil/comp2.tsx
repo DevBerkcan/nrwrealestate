@@ -19,7 +19,7 @@ const Ankaufsprofilcomp2 = () => {
       </div>
 
       {/* Text Section - 60% Width */}
-      <div className="flex-1 flex flex-col pt-2 font-light h-full">
+      <div className="flex-1 flex flex-col font-light h-full">
         <h2 className="font-merriweather font-normal text-[#1a1a1a] text-[40px] leading-[32px] mb-12">
         Unser Anforderungsprofil
         </h2>
@@ -72,12 +72,12 @@ const Ankaufsprofilcomp2 = () => {
               Kontaktieren können Sie uns gerne per Mail oder direkt hier.
             </p>
           </div>
-          <Link
-            href="/Kontakt"
-            className="text-white w-[126px] h-[40px] flex justify-center items-center font-gothic bg-[#1B944A]"
-          >
-            Kontakt
-          </Link>
+<Link
+  href="/Kontakt"
+  className="text-white w-[126px] h-[40px] flex justify-center items-center font-gothic bg-[#1B944A] relative -top-[28px]"
+>
+  Kontakt
+</Link>
         </div>
       </div>
     </section>
