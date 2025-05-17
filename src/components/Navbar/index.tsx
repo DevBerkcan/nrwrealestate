@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
@@ -36,7 +37,7 @@ const Navbar = () => {
             <Link
               key={index}
               href={link.href}
-              className="font-gothic font-medium text-[#1F4B43] text-[18px] lg:text-[24px] tracking-wide hover:text-[#145e50] hover:font-semibold transition-colors"
+              className="font-gothic font-medium text-[#1F4B43] text-[24px] tracking-wide transition-all duration-200 hover:text-[#1c3f38] hover:scale-105"
             >
               {link.title}
             </Link>
@@ -51,7 +52,7 @@ const Navbar = () => {
             <Link
               key={index}
               href={link.href}
-              className=" font-gothic hover:text-[#145e50] font-extralight transition-colors"
+              className="font-gothic text-[20px] hover:text-[#1c3f38] hover:scale-105 transition-transform duration-200"
               onClick={() => setIsOpen(false)}
             >
               {link.title}

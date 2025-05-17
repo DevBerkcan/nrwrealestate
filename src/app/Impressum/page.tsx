@@ -80,7 +80,8 @@ const Impressum = () => {
               <span className="font-medium">Amtsgericht Wuppertal</span><br /><br />
               Handelsregisternummer: <span className="font-medium">HRB 23380</span><br /><br />
               Vertretungsberechtigte Person:<br />
-              <span className="font-medium">Oliver Jacobi</span>, Geschäftsführer & Gesellschafter
+<span className="font-medium">Oliver Jacobi, Geschäftsführer & Gesellschafter</span>
+
             </p>
           </section>
 
