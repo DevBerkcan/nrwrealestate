@@ -8,9 +8,9 @@ const Ankaufsprofilcomp1 = () => {
 
       {/* Text Section - 60% Width */}
       <div className="w-full flex-1 flex flex-col text-[#1a1a1a] font-[400] pt-2 text-normal">
-        <h2 className="font-merriweather font-normal text-[#1a1a1a] text-[40px] leading-[41.41px] mb-5">
+        <h2 className="font-merriweather font-normal text-[#1a1a1a] text-[40px] leading-[41.41px] mb-12">
           Wir suchen stetig nach Immobilien für unseren Bestand und freuen uns,
-          wenn Sie uns bei der Suche unterstützen.
+          wenn Sie uns bei der Suche unterstützen. <br />
         </h2>
         <p className="font-gothic mb-8">
           Unser Fokus liegt auf Mehrfamilienhäusern, Wohn- und Geschäftshäusern,
