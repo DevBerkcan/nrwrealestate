@@ -37,9 +37,7 @@ const InfoSection: React.FC<InfoSectionProps> = ({
       </div>
 
       {/* Text Section */}
-      <div
-        className={`w-full flex-1 flex flex-col pt-4 `}
-      >
+      <div className={`w-full flex-1 flex flex-col pt-4 `}>
         {title && (
           <h2 className="font-merriweather font-[400] text-center md:text-left text-[#1a1a1a] text-[40px] leading-[32px] mb-5">
             {title}
@@ -51,42 +49,37 @@ const InfoSection: React.FC<InfoSectionProps> = ({
           </h2>
         )}
         <p className="font-gothic mb-10 text-[18px]">
-          Wir sind kontinuierlich auf der Suche nach attraktiven Immobilien in
-          Wuppertal und Umgebung.
+          Wir suchen kontinuierlich nach attraktiven Immobilien in Wuppertal und
+          Umgebung.
         </p>
         <p className="font-gothic mb-10 text-[18px]">
           <>
-            Dank unserer langjährigen Expertise können wir Immobilien
-            inunterschiedlichsten <br />
-            Zuständen und aus allen Baujahrklassen präzise bewerten und
-            verborgene
-            <br /> Potenziale erkennen.
-            <br />
-            <br />
-            Unser Ankaufsprofil umfasst sowohl sanierte Mehrfamilienhäuser als
-            <br />
-            auch entwicklungsbedürftige Bestandsobjekte mit hohem
-            Aufwertungspotenzial.
+            Dank unserer langjährigen Expertise können wir Immobilien in
+            unterschiedlichen Zuständen und aus allen Baujahrklassen bewerten
+            und Potentiale erkennen. Dazu gehören sanierte Mehrfamilienhäuser
+            ebenso wie entwicklungsbedürftige Bestandsobjekte.
           </>
         </p>
-        <p className="font-gothic font-bold mb-10 text-[18px]"><br />Unser Fokus:</p>
-        <p className="font-gothic mb-10 text-[18px]">
-          Immobilien im Wohnbereich, einschließlich Mehrfamilienhäuser,
+        <p className="font-gothic font-bold mb-10 text-[18px]">
           <br />
-          Wohn- und Geschäftshäuser, Wohnanlagen sowie Grundstücke.
+          Unser Fokus:
+        </p>
+        <p className="font-gothic mb-10 text-[18px]">
+          Immobilien im Wohnbereich, einschließlich Mehrfamilienhäuser, Wohn-
+          und Geschäftshäuser, Wohnanlagen sowie Grundstücke.
         </p>
         <p className="font-gothic mb-10 text-[18px]">
           Bestandsobjekte mit Entwicklungspotenzial - etwa durch Leerstand oder
-          <br />
           Sanierungsbedarf.
         </p>
         <p className="font-gothic mb-10 text-[18px]">
-          Wir garantieren eine diskrete, transparente und zügige Abwicklung.
+          Wir garantieren eine diskrete Prüfung sowie eine zügige und
+          transparente Abwicklung.
         </p>
         <p className="font-gothic mb-10 text-[18px]">
-          Besuchen Sie gerne unser Ankaufsprofil, um mehr über unsere Kriterien
-          zu erfahren.
-          <br /> Wir freuen uns auf eine mögliche Zusammenarbeit.
+          Besuchen Sie gerne unser Ankaufsprofil, um weitere Details zu unserer
+          Immobiliensuche zu erfahren.
+          <br /> <br /> Wir freuen uns auf eine mögliche Zusammenarbeit.
         </p>
 
         {addButton && (

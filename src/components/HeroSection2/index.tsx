@@ -61,7 +61,7 @@ const HeroSection2: React.FC<HeroSection2Props> = ({
         {subtitle && (
           <p
             className={cn(
-              "text-white font-medium mt-4 text-[20px] sm:text-[20px] md:text-[30px] lg:text-[40px] leading-[47.2px] tracking-tight",
+              "text-white font-gothic font-semibold mt-4 text-[20px] sm:text-[20px] md:text-[30px] lg:text-[40px] leading-[47.2px] tracking-tight",
               gothic.className
             )}
           >
