@@ -69,8 +69,7 @@ const InfoSection: React.FC<InfoSectionProps> = ({
           und Geschäftshäuser, Wohnanlagen sowie Grundstücke.
         </p>
         <p className="font-gothic mb-10 text-[18px]">
-          Bestandsobjekte mit Entwicklungspotenzial - etwa durch Leerstand oder
-          Sanierungsbedarf.
+        Bestandsobjekte mit Entwicklungspotenzial, zum Beispiel durch Leerstand oder Sanierungsbedarf.
         </p>
         <p className="font-gothic mb-10 text-[18px]">
           Wir garantieren eine diskrete Prüfung sowie eine zügige und
